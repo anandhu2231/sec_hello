@@ -11,3 +11,12 @@ if(num%2)==0:
         print("the number is even")
 else:
         print("the number is odd")
+        
+        
+#even or odd using function
+def oddeven(number):
+        if(number%2==0):
+                return(f"{number} is even")
+        else:
+                return(f"{number} is odd")
+print(oddeven(20))
