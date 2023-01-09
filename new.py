@@ -4,3 +4,4 @@ def sum():
     return(f"Sum is {a+b}")
 
 print(sum())
+print("Addition Completed")
