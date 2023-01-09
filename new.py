@@ -1,6 +1,12 @@
 def sum():
-    a = int(input("Enter number1 : -"))
-    b = int(input("enter number2 : -"))
-    return(f"Sum is {a+b}")
+        a = (input("Enter number1 : "))
+        b = (input("enter number2 : "))
+        try:
+            sum = a+b
+            return sum
+        except ValueError:
+            return("Input Value error")
+
+
 
 print(sum())
